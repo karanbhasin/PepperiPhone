@@ -7,7 +7,7 @@
 //
 
 #import "baseSectionViewController.h"
-#import "tabBarTableViewAppDelegate.h"
+#import "pepperAppDelegate.h"
 #import "Util.h"
 
 @implementation baseSectionViewController
@@ -17,7 +17,7 @@
 @synthesize dictionary = _dictionary;
 
 - (id) appDelegate {
-	return (tabBarTableViewAppDelegate *)[[UIApplication sharedApplication] delegate];
+	return (pepperAppDelegate *)[[UIApplication sharedApplication] delegate];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

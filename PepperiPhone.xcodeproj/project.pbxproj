@@ -13,13 +13,34 @@
 		83E1C254151D2A60008F081C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83E1C252151D2A60008F081C /* InfoPlist.strings */; };
 		83E1C256151D2A60008F081C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C255151D2A60008F081C /* main.m */; };
 		83E1C25A151D2A60008F081C /* pepperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C259151D2A60008F081C /* pepperAppDelegate.m */; };
-		83E1C25D151D2A60008F081C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E1C25B151D2A60008F081C /* MainStoryboard.storyboard */; };
 		83E1C260151D2A60008F081C /* pepperFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C25F151D2A60008F081C /* pepperFirstViewController.m */; };
 		83E1C262151D2A60008F081C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E1C261151D2A60008F081C /* first.png */; };
 		83E1C264151D2A60008F081C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E1C263151D2A60008F081C /* first@2x.png */; };
 		83E1C267151D2A60008F081C /* pepperSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C266151D2A60008F081C /* pepperSecondViewController.m */; };
 		83E1C269151D2A60008F081C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E1C268151D2A60008F081C /* second.png */; };
 		83E1C26B151D2A60008F081C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E1C26A151D2A60008F081C /* second@2x.png */; };
+		83E1C27B151D2B19008F081C /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C278151D2B19008F081C /* API.m */; };
+		83E1C27C151D2B19008F081C /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C27A151D2B19008F081C /* Bank.m */; };
+		83E1C27F151D2B4C008F081C /* Fund.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C27E151D2B4C008F081C /* Fund.m */; };
+		83E1C284151D2B72008F081C /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C281151D2B72008F081C /* UserDefaults.m */; };
+		83E1C285151D2B72008F081C /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C283151D2B72008F081C /* Util.m */; };
+		83E1C288151D2C3F008F081C /* baseSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C287151D2C3F008F081C /* baseSectionViewController.m */; };
+		83E1C28B151D2C57008F081C /* dealsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C28A151D2C57008F081C /* dealsViewController.m */; };
+		83E1C28E151D2C66008F081C /* dealDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C28D151D2C66008F081C /* dealDetailsViewController.m */; };
+		83E1C293151D2CA7008F081C /* fundDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C290151D2CA7008F081C /* fundDetailViewController.m */; };
+		83E1C294151D2CA7008F081C /* fundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C292151D2CA7008F081C /* fundsViewController.m */; };
+		83E1C297151D2CDF008F081C /* investorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C296151D2CDF008F081C /* investorsViewController.m */; };
+		83E1C29A151D2CF3008F081C /* investorDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C299151D2CF3008F081C /* investorDetailsViewController.m */; };
+		83E1C29C151D2D45008F081C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E1C29B151D2D45008F081C /* MainStoryboard.storyboard */; };
+		83E1C61A151D2DF7008F081C /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C619151D2DF7008F081C /* loginViewController.m */; };
+		83E1C61D151D2E20008F081C /* investorFundDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C61C151D2E20008F081C /* investorFundDetails.m */; };
+		83E1C620151D2E40008F081C /* underlyingFundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C61F151D2E40008F081C /* underlyingFundsViewController.m */; };
+		83E1C625151D2E71008F081C /* directDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C622151D2E71008F081C /* directDetailsViewController.m */; };
+		83E1C626151D2E71008F081C /* directsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C624151D2E71008F081C /* directsViewController.m */; };
+		83E1C62F151D2EAB008F081C /* capitalCallDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C628151D2EAB008F081C /* capitalCallDetailsViewController.m */; };
+		83E1C630151D2EAB008F081C /* capitalCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C62A151D2EAB008F081C /* capitalCallViewController.m */; };
+		83E1C631151D2EAB008F081C /* capitalDistributionDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C62C151D2EAB008F081C /* capitalDistributionDetails.m */; };
+		83E1C632151D2EAB008F081C /* capitalDistributionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1C62E151D2EAB008F081C /* capitalDistributionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +48,63 @@
 		83E1C249151D2A60008F081C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		83E1C24B151D2A60008F081C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83E1C24D151D2A60008F081C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		83E1C251151D2A60008F081C /* PepperiPhone-Info.plist */ = {isa = PBXFileReference; path = "PepperiPhone-Info.plist"; sourceTree = "<group>"; };
+		83E1C251151D2A60008F081C /* PepperiPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PepperiPhone-Info.plist"; sourceTree = "<group>"; };
 		83E1C253151D2A60008F081C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83E1C255151D2A60008F081C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		83E1C257151D2A60008F081C /* PepperiPhone-Prefix.pch */ = {isa = PBXFileReference; path = "PepperiPhone-Prefix.pch"; sourceTree = "<group>"; };
-		83E1C258151D2A60008F081C /* pepperAppDelegate.h */ = {isa = PBXFileReference; path = pepperAppDelegate.h; sourceTree = "<group>"; };
+		83E1C257151D2A60008F081C /* PepperiPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PepperiPhone-Prefix.pch"; sourceTree = "<group>"; };
+		83E1C258151D2A60008F081C /* pepperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pepperAppDelegate.h; sourceTree = "<group>"; };
 		83E1C259151D2A60008F081C /* pepperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pepperAppDelegate.m; sourceTree = "<group>"; };
-		83E1C25C151D2A60008F081C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		83E1C25E151D2A60008F081C /* pepperFirstViewController.h */ = {isa = PBXFileReference; path = pepperFirstViewController.h; sourceTree = "<group>"; };
+		83E1C25E151D2A60008F081C /* pepperFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pepperFirstViewController.h; sourceTree = "<group>"; };
 		83E1C25F151D2A60008F081C /* pepperFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pepperFirstViewController.m; sourceTree = "<group>"; };
 		83E1C261151D2A60008F081C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		83E1C263151D2A60008F081C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		83E1C265151D2A60008F081C /* pepperSecondViewController.h */ = {isa = PBXFileReference; path = pepperSecondViewController.h; sourceTree = "<group>"; };
+		83E1C265151D2A60008F081C /* pepperSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pepperSecondViewController.h; sourceTree = "<group>"; };
 		83E1C266151D2A60008F081C /* pepperSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pepperSecondViewController.m; sourceTree = "<group>"; };
 		83E1C268151D2A60008F081C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		83E1C26A151D2A60008F081C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		83E1C277151D2B19008F081C /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		83E1C278151D2B19008F081C /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
+		83E1C279151D2B19008F081C /* Bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
+		83E1C27A151D2B19008F081C /* Bank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bank.m; sourceTree = "<group>"; };
+		83E1C27D151D2B4C008F081C /* Fund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fund.h; sourceTree = "<group>"; };
+		83E1C27E151D2B4C008F081C /* Fund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fund.m; sourceTree = "<group>"; };
+		83E1C280151D2B72008F081C /* UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		83E1C281151D2B72008F081C /* UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaults.m; sourceTree = "<group>"; };
+		83E1C282151D2B72008F081C /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		83E1C283151D2B72008F081C /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		83E1C286151D2C3F008F081C /* baseSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseSectionViewController.h; sourceTree = "<group>"; };
+		83E1C287151D2C3F008F081C /* baseSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseSectionViewController.m; sourceTree = "<group>"; };
+		83E1C289151D2C57008F081C /* dealsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dealsViewController.h; sourceTree = "<group>"; };
+		83E1C28A151D2C57008F081C /* dealsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dealsViewController.m; sourceTree = "<group>"; };
+		83E1C28C151D2C66008F081C /* dealDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dealDetailsViewController.h; sourceTree = "<group>"; };
+		83E1C28D151D2C66008F081C /* dealDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dealDetailsViewController.m; sourceTree = "<group>"; };
+		83E1C28F151D2CA7008F081C /* fundDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fundDetailViewController.h; sourceTree = "<group>"; };
+		83E1C290151D2CA7008F081C /* fundDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fundDetailViewController.m; sourceTree = "<group>"; };
+		83E1C291151D2CA7008F081C /* fundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fundsViewController.h; sourceTree = "<group>"; };
+		83E1C292151D2CA7008F081C /* fundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fundsViewController.m; sourceTree = "<group>"; };
+		83E1C295151D2CDF008F081C /* investorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = investorsViewController.h; sourceTree = "<group>"; };
+		83E1C296151D2CDF008F081C /* investorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = investorsViewController.m; sourceTree = "<group>"; };
+		83E1C298151D2CF3008F081C /* investorDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = investorDetailsViewController.h; sourceTree = "<group>"; };
+		83E1C299151D2CF3008F081C /* investorDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = investorDetailsViewController.m; sourceTree = "<group>"; };
+		83E1C29B151D2D45008F081C /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		83E1C618151D2DF7008F081C /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		83E1C619151D2DF7008F081C /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		83E1C61B151D2E20008F081C /* investorFundDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = investorFundDetails.h; sourceTree = "<group>"; };
+		83E1C61C151D2E20008F081C /* investorFundDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = investorFundDetails.m; sourceTree = "<group>"; };
+		83E1C61E151D2E40008F081C /* underlyingFundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = underlyingFundsViewController.h; sourceTree = "<group>"; };
+		83E1C61F151D2E40008F081C /* underlyingFundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = underlyingFundsViewController.m; sourceTree = "<group>"; };
+		83E1C621151D2E71008F081C /* directDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = directDetailsViewController.h; sourceTree = "<group>"; };
+		83E1C622151D2E71008F081C /* directDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = directDetailsViewController.m; sourceTree = "<group>"; };
+		83E1C623151D2E71008F081C /* directsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = directsViewController.h; sourceTree = "<group>"; };
+		83E1C624151D2E71008F081C /* directsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = directsViewController.m; sourceTree = "<group>"; };
+		83E1C627151D2EAB008F081C /* capitalCallDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = capitalCallDetailsViewController.h; sourceTree = "<group>"; };
+		83E1C628151D2EAB008F081C /* capitalCallDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = capitalCallDetailsViewController.m; sourceTree = "<group>"; };
+		83E1C629151D2EAB008F081C /* capitalCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = capitalCallViewController.h; sourceTree = "<group>"; };
+		83E1C62A151D2EAB008F081C /* capitalCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = capitalCallViewController.m; sourceTree = "<group>"; };
+		83E1C62B151D2EAB008F081C /* capitalDistributionDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = capitalDistributionDetails.h; sourceTree = "<group>"; };
+		83E1C62C151D2EAB008F081C /* capitalDistributionDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = capitalDistributionDetails.m; sourceTree = "<group>"; };
+		83E1C62D151D2EAB008F081C /* capitalDistributionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = capitalDistributionViewController.h; sourceTree = "<group>"; };
+		83E1C62E151D2EAB008F081C /* capitalDistributionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = capitalDistributionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +151,42 @@
 		83E1C24F151D2A60008F081C /* PepperiPhone */ = {
 			isa = PBXGroup;
 			children = (
+				83E1C627151D2EAB008F081C /* capitalCallDetailsViewController.h */,
+				83E1C628151D2EAB008F081C /* capitalCallDetailsViewController.m */,
+				83E1C629151D2EAB008F081C /* capitalCallViewController.h */,
+				83E1C62A151D2EAB008F081C /* capitalCallViewController.m */,
+				83E1C62B151D2EAB008F081C /* capitalDistributionDetails.h */,
+				83E1C62C151D2EAB008F081C /* capitalDistributionDetails.m */,
+				83E1C62D151D2EAB008F081C /* capitalDistributionViewController.h */,
+				83E1C62E151D2EAB008F081C /* capitalDistributionViewController.m */,
+				83E1C621151D2E71008F081C /* directDetailsViewController.h */,
+				83E1C622151D2E71008F081C /* directDetailsViewController.m */,
+				83E1C623151D2E71008F081C /* directsViewController.h */,
+				83E1C624151D2E71008F081C /* directsViewController.m */,
+				83E1C61E151D2E40008F081C /* underlyingFundsViewController.h */,
+				83E1C61F151D2E40008F081C /* underlyingFundsViewController.m */,
+				83E1C61B151D2E20008F081C /* investorFundDetails.h */,
+				83E1C61C151D2E20008F081C /* investorFundDetails.m */,
+				83E1C618151D2DF7008F081C /* loginViewController.h */,
+				83E1C619151D2DF7008F081C /* loginViewController.m */,
+				83E1C29B151D2D45008F081C /* MainStoryboard.storyboard */,
+				83E1C298151D2CF3008F081C /* investorDetailsViewController.h */,
+				83E1C299151D2CF3008F081C /* investorDetailsViewController.m */,
+				83E1C295151D2CDF008F081C /* investorsViewController.h */,
+				83E1C296151D2CDF008F081C /* investorsViewController.m */,
+				83E1C28F151D2CA7008F081C /* fundDetailViewController.h */,
+				83E1C290151D2CA7008F081C /* fundDetailViewController.m */,
+				83E1C291151D2CA7008F081C /* fundsViewController.h */,
+				83E1C292151D2CA7008F081C /* fundsViewController.m */,
+				83E1C28C151D2C66008F081C /* dealDetailsViewController.h */,
+				83E1C28D151D2C66008F081C /* dealDetailsViewController.m */,
+				83E1C289151D2C57008F081C /* dealsViewController.h */,
+				83E1C28A151D2C57008F081C /* dealsViewController.m */,
+				83E1C286151D2C3F008F081C /* baseSectionViewController.h */,
+				83E1C287151D2C3F008F081C /* baseSectionViewController.m */,
+				83E1C275151D2ACA008F081C /* API */,
 				83E1C258151D2A60008F081C /* pepperAppDelegate.h */,
 				83E1C259151D2A60008F081C /* pepperAppDelegate.m */,
-				83E1C25B151D2A60008F081C /* MainStoryboard.storyboard */,
 				83E1C25E151D2A60008F081C /* pepperFirstViewController.h */,
 				83E1C25F151D2A60008F081C /* pepperFirstViewController.m */,
 				83E1C261151D2A60008F081C /* first.png */,
@@ -113,6 +209,31 @@
 				83E1C257151D2A60008F081C /* PepperiPhone-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83E1C275151D2ACA008F081C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				83E1C276151D2ADD008F081C /* Model */,
+				83E1C277151D2B19008F081C /* API.h */,
+				83E1C278151D2B19008F081C /* API.m */,
+				83E1C282151D2B72008F081C /* Util.h */,
+				83E1C283151D2B72008F081C /* Util.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		83E1C276151D2ADD008F081C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83E1C280151D2B72008F081C /* UserDefaults.h */,
+				83E1C281151D2B72008F081C /* UserDefaults.m */,
+				83E1C27D151D2B4C008F081C /* Fund.h */,
+				83E1C27E151D2B4C008F081C /* Fund.m */,
+				83E1C279151D2B19008F081C /* Bank.h */,
+				83E1C27A151D2B19008F081C /* Bank.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,11 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E1C254151D2A60008F081C /* InfoPlist.strings in Resources */,
-				83E1C25D151D2A60008F081C /* MainStoryboard.storyboard in Resources */,
 				83E1C262151D2A60008F081C /* first.png in Resources */,
 				83E1C264151D2A60008F081C /* first@2x.png in Resources */,
 				83E1C269151D2A60008F081C /* second.png in Resources */,
 				83E1C26B151D2A60008F081C /* second@2x.png in Resources */,
+				83E1C29C151D2D45008F081C /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +306,27 @@
 				83E1C25A151D2A60008F081C /* pepperAppDelegate.m in Sources */,
 				83E1C260151D2A60008F081C /* pepperFirstViewController.m in Sources */,
 				83E1C267151D2A60008F081C /* pepperSecondViewController.m in Sources */,
+				83E1C27B151D2B19008F081C /* API.m in Sources */,
+				83E1C27C151D2B19008F081C /* Bank.m in Sources */,
+				83E1C27F151D2B4C008F081C /* Fund.m in Sources */,
+				83E1C284151D2B72008F081C /* UserDefaults.m in Sources */,
+				83E1C285151D2B72008F081C /* Util.m in Sources */,
+				83E1C288151D2C3F008F081C /* baseSectionViewController.m in Sources */,
+				83E1C28B151D2C57008F081C /* dealsViewController.m in Sources */,
+				83E1C28E151D2C66008F081C /* dealDetailsViewController.m in Sources */,
+				83E1C293151D2CA7008F081C /* fundDetailViewController.m in Sources */,
+				83E1C294151D2CA7008F081C /* fundsViewController.m in Sources */,
+				83E1C297151D2CDF008F081C /* investorsViewController.m in Sources */,
+				83E1C29A151D2CF3008F081C /* investorDetailsViewController.m in Sources */,
+				83E1C61A151D2DF7008F081C /* loginViewController.m in Sources */,
+				83E1C61D151D2E20008F081C /* investorFundDetails.m in Sources */,
+				83E1C620151D2E40008F081C /* underlyingFundsViewController.m in Sources */,
+				83E1C625151D2E71008F081C /* directDetailsViewController.m in Sources */,
+				83E1C626151D2E71008F081C /* directsViewController.m in Sources */,
+				83E1C62F151D2EAB008F081C /* capitalCallDetailsViewController.m in Sources */,
+				83E1C630151D2EAB008F081C /* capitalCallViewController.m in Sources */,
+				83E1C631151D2EAB008F081C /* capitalDistributionDetails.m in Sources */,
+				83E1C632151D2EAB008F081C /* capitalDistributionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,14 +339,6 @@
 				83E1C253151D2A60008F081C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		83E1C25B151D2A60008F081C /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83E1C25C151D2A60008F081C /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -7,7 +7,7 @@
 //
 
 #import "investorsViewController.h"
-#import "tabBarTableViewAppDelegate.h"
+#import "pepperAppDelegate.h"
 #import "investorFundDetails.h"
 
 // Private variables. To declare private variables, you use the interface keyword with the name of your class followed by closed braces
@@ -44,7 +44,7 @@
     [super viewDidLoad];
     
     // Get the list of the Funds from the api
-    tabBarTableViewAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    pepperAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     NSData* responseData = [appDelegate.api GetInvestors];
     
     //parse out the json data

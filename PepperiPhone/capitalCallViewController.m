@@ -8,7 +8,7 @@
 
 #import "capitalCallViewController.h"
 #import "capitalCallDetailsViewController.h"
-#import "tabBarTableViewAppDelegate.h"
+#import "pepperAppDelegate.h"
 #import "Util.h"
 
 
@@ -156,7 +156,7 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    tabBarTableViewAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    pepperAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     NSData* responseData = [appDelegate.api GetCapitalCalls:self.selectedFundID];
     NSError* error;
     NSDictionary* json = [NSJSONSerialization 

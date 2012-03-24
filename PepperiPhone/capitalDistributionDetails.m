@@ -7,7 +7,7 @@
 //
 
 #import "capitalDistributionDetails.h"
-#import "tabBarTableViewAppDelegate.h"
+#import "pepperAppDelegate.h"
 #import "Util.h"
 
 @implementation capitalDistributionDetails
@@ -204,7 +204,7 @@
 {
     [super viewDidLoad];
     
-    tabBarTableViewAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    pepperAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     NSData* responseData = [appDelegate.api GetCapitalDistributionInvestors:self.selectedActivityID];
     NSError* error;
     NSDictionary* json = [NSJSONSerialization 

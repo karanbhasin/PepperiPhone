@@ -8,7 +8,7 @@
 
 #import "directsViewController.h"
 #import "directDetailsViewController.h"
-#import "tabBarTableViewAppDelegate.h"
+#import "pepperAppDelegate.h"
 #import "Util.h"
 
 @implementation directsViewController
@@ -74,7 +74,7 @@
     [super viewDidLoad];
     
     // Get the list of the Funds from the api
-    tabBarTableViewAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    pepperAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     NSData* responseData = [appDelegate.api GetDirects];
     
     //parse out the json data

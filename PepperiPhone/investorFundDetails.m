@@ -7,7 +7,7 @@
 //
 
 #import "investorFundDetails.h"
-#import "tabBarTableViewAppDelegate.h"
+#import "pepperAppDelegate.h"
 #import "Util.h"
 
 @implementation investorFundDetails

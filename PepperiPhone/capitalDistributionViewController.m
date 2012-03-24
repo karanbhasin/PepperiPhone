@@ -8,7 +8,7 @@
 
 #import "capitalDistributionViewController.h"
 #import "capitalDistributionDetails.h"
-#import "tabBarTableViewAppDelegate.h"
+#import "pepperAppDelegate.h"
 #import "Util.h"
 
 @implementation capitalDistributionViewController
@@ -175,7 +175,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    tabBarTableViewAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    pepperAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     NSData* responseData = [appDelegate.api GetCapitalDistributions:self.selectedFundID];
     NSError* error;
     NSDictionary* json = [NSJSONSerialization 

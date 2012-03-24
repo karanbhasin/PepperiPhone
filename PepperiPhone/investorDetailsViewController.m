@@ -7,7 +7,7 @@
 //
 
 #import "investorDetailsViewController.h"
-#import "tabBarTableViewAppDelegate.h"
+#import "pepperAppDelegate.h"
 #import "Util.h"
 
 @implementation investorDetailsViewController
@@ -44,7 +44,7 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     // Get the list of the Funds from the api
-    tabBarTableViewAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    pepperAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     NSData* responseData = [appDelegate.api GetInvestorsInFund:self.selectedFundID];
     
     //parse out the json data

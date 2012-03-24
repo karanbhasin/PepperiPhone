@@ -7,17 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "tabBarTableViewAppDelegate.h"
+#import "pepperAppDelegate.h"
 
 @interface baseSectionViewController : UIViewController  <UITableViewDelegate, UITableViewDataSource>
 {
     IBOutlet UITableView *table;
-    tabBarTableViewAppDelegate *appDelegate;
+    pepperAppDelegate *appDelegate;
 }
 - (NSString *)labelForIndexPath :(NSIndexPath *)indexPath ;    
 - (NSString *)textForIndexPath:(NSIndexPath *)indexPath;    
 - (NSDictionary *)dictionaryForIndexPath:(NSIndexPath *)indexPath ;
-@property (nonatomic, readonly) tabBarTableViewAppDelegate *appDelegate;
+@property (nonatomic, readonly) pepperAppDelegate *appDelegate;
 @property (nonatomic) int selectedID;
 @property (nonatomic, retain) NSMutableArray *sections;
 @property (nonatomic, retain) NSMutableDictionary *dictionary;

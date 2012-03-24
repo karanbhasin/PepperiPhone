@@ -7,10 +7,9 @@
 //
 
 #import "loginViewController.h"
-#import "tabBarTableViewAppDelegate.h"
+#import "pepperAppDelegate.h"
 #import "API.h"
 #import "UserDefaults.h"
-#import "tabBarTableViewSecondViewController.h"
 
 @interface loginViewController()
 - (BOOL) credsAreValid;
@@ -271,7 +270,7 @@
 	}
 	else {
 		// Add the loading view to signafy that something is happening
-        tabBarTableViewAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+        pepperAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
         [appDelegate showActivityViewer:@"Loading..."];
 		[theTextField resignFirstResponder];
 		
@@ -307,7 +306,7 @@
 
 - (void) authenticateUser { 
     
-    tabBarTableViewAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    pepperAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     [[UserDefaults sharedInstance] setEntityCode:self.entityCode];
 	[[UserDefaults sharedInstance] setPassword:self.password];
 	[[UserDefaults sharedInstance] setUserName:self.username];
@@ -318,7 +317,7 @@
     loginSuccess = api.IsAuthenticated;
     if(loginSuccess){
         appDelegate.api = api;
-        tabBarTableViewSecondViewController *tabController = [self.storyboard instantiateViewControllerWithIdentifier:@"tabBarTableViewSecondViewController"];
+        UITabBarController *tabController = [self.storyboard instantiateViewControllerWithIdentifier:@"tabBarViewController"];
         appDelegate.tabBarController = tabController;
         
         // Show the tab controller

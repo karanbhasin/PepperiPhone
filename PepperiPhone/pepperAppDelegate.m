@@ -11,13 +11,27 @@
 @implementation pepperAppDelegate
 
 @synthesize window = _window;
+@synthesize api = _api;
+@synthesize tabBarController = _tabBarController;
+
+/*
+ -(API*)api{
+ if(!_api){ 
+ _api = [[API alloc] init]; 
+ // Log in the user
+ //[_api logInUser:@"pulak" withPassword:@"sinha" forEntity:@"ec"];
+ [_api logInUser:@"admin" withPassword:@"deepblue" forEntity:@"asd"];
+ }
+ return _api;
+ }
+ */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     /*
@@ -55,6 +69,50 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
+}
+
+- (void) showActivityViewer:(NSString *)text {	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+	
+	UIView *activityView = [[UIView alloc] initWithFrame: CGRectMake(0, 0, self.window.bounds.size.width, self.window.bounds.size.height)];
+	activityView.tag = 100;
+	
+	UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"activityViewBg.png"]];
+	backgroundImageView.frame = CGRectMake(0, 0, backgroundImageView.frame.size.width, backgroundImageView.frame.size.height);
+	
+	UIActivityIndicatorView *activityWheel = [[UIActivityIndicatorView alloc] initWithFrame: CGRectMake(self.window.bounds.size.width / 2 - 18, 208, 36, 36)];
+	activityWheel.activityIndicatorViewStyle = UIActivityIndicatorViewStyleWhiteLarge;
+	activityWheel.autoresizingMask = (UIViewAutoresizingFlexibleLeftMargin |
+									  UIViewAutoresizingFlexibleRightMargin |
+									  UIViewAutoresizingFlexibleTopMargin |
+									  UIViewAutoresizingFlexibleBottomMargin);
+	[activityWheel startAnimating];
+	
+	UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 240, self.window.bounds.size.width, 40)];
+	label.font = [UIFont boldSystemFontOfSize:18];
+	label.textColor = [UIColor whiteColor];
+	label.textAlignment = UITextAlignmentCenter;
+	label.text = text;
+	label.backgroundColor = [UIColor clearColor];
+    
+	[activityView addSubview:backgroundImageView];
+	[activityView addSubview:activityWheel];
+	[activityView addSubview:label];
+	
+	[self.window addSubview:activityView];
+}
+
+- (void) hideActivityViewer {
+	UIView *activityView = (UIView *)[self.window viewWithTag:100];
+	activityView.hidden = YES;
+	[activityView removeFromSuperview];
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+}
+
+- (void) openTabController {
+    [self.window addSubview:self.tabBarController.view];
+    // Remove the login view
+    // [self.loginViewController.view removeFromSuperview];
 }
 
 @end

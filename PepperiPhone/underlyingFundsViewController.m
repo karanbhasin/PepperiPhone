@@ -13,7 +13,7 @@
 ///Deal/UnderlyingFundList?isGP=true&gpId=18&underlyingFundID=0&companyId=18
 
 #import "underlyingFundsViewController.h"
-#import "tabBarTableViewAppDelegate.h"
+#import "pepperAppDelegate.h"
 #import "Util.h"
 
 @implementation underlyingFundsViewController
@@ -42,7 +42,7 @@
     [super viewDidLoad];
     
     // Get the list of the Funds from the api
-    tabBarTableViewAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    pepperAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     NSData* responseData = [appDelegate.api GetUnderlyingFunds];
     
     //parse out the json data

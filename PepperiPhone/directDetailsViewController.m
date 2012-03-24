@@ -7,7 +7,7 @@
 //
 
 #import "directDetailsViewController.h"
-#import "tabBarTableViewAppDelegate.h"
+#import "pepperAppDelegate.h"
 #import "investorDetailsViewController.h"
 #import "capitalCallViewController.h"
 #import "capitalDistributionViewController.h"
@@ -59,7 +59,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    tabBarTableViewAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    pepperAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     NSData* responseData = [appDelegate.api GetDirectDetails:self.selectedDirectID];
     NSError* error;
     NSDictionary* json = [NSJSONSerialization 
