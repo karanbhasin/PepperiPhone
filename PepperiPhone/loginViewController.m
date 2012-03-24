@@ -305,7 +305,6 @@
 }
 
 - (void) authenticateUser { 
-    
     pepperAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     [[UserDefaults sharedInstance] setEntityCode:self.entityCode];
 	[[UserDefaults sharedInstance] setPassword:self.password];
